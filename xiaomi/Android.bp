@@ -1,0 +1,413 @@
+//
+// Automatically generated file. DO NOT MODIFY
+//
+
+soong_namespace {
+    imports: [
+        "vendor/miuicamera-ginkgo",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "libCameraEffectJNI",
+    owner: "miuicamera-ginkgo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libCameraEffectJNI.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libMiuiGalleryNSGIF",
+    owner: "miuicamera-ginkgo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libMiuiGalleryNSGIF.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libarc_layer_sgl",
+    owner: "miuicamera-ginkgo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libarc_layer_sgl.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libarcsoft_deflicker",
+    owner: "miuicamera-ginkgo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libarcsoft_deflicker.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libarcsoft_wideselfie",
+    owner: "miuicamera-ginkgo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libarcsoft_wideselfie.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libc++_shared_miuicamera",
+    stem: "libc++_shared",
+    owner: "miuicamera-ginkgo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libc++_shared.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamera_960_mpbase",
+    owner: "miuicamera-ginkgo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libcamera_960_mpbase.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamera_arcsoft_beautyshot",
+    owner: "miuicamera-ginkgo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libcamera_arcsoft_beautyshot.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamera_arcsoft_handgesture",
+    owner: "miuicamera-ginkgo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libcamera_arcsoft_handgesture.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamera_beauty_mpbase",
+    owner: "miuicamera-ginkgo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libcamera_beauty_mpbase.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamera_handgesture_mpbase",
+    owner: "miuicamera-ginkgo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libcamera_handgesture_mpbase.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamera_wideselfie_mpbase",
+    owner: "miuicamera-ginkgo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libcamera_wideselfie_mpbase.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcom.xiaomi.camera.algojni",
+    owner: "miuicamera-ginkgo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libcom.xiaomi.camera.algojni.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcom.xiaomi.camera.mianodejni",
+    owner: "miuicamera-ginkgo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libcom.xiaomi.camera.mianodejni.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcom.xiaomi.camera.requestutil",
+    owner: "miuicamera-ginkgo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libcom.xiaomi.camera.requestutil.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libhandengine.arcsoft",
+    owner: "miuicamera-ginkgo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libhandengine.arcsoft.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libjni_arcsoft_beautyshot",
+    owner: "miuicamera-ginkgo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libjni_arcsoft_beautyshot.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmmcamera_faceproc_miuicamera",
+    stem: "libmmcamera_faceproc",
+    owner: "miuicamera-ginkgo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libmmcamera_faceproc.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmmcamera_faceproc2_miuicamera",
+    stem: "libmmcamera_faceproc2",
+    owner: "miuicamera-ginkgo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libmmcamera_faceproc2.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmorpho_memory_allocator",
+    owner: "miuicamera-ginkgo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libmorpho_memory_allocator.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmorpho_panorama_gp3",
+    owner: "miuicamera-ginkgo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libmorpho_panorama_gp3.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmorpho_sensor_fusion",
+    owner: "miuicamera-ginkgo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libmorpho_sensor_fusion.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+dex_import {
+    name: "cloud-common-runtime",
+    owner: "miuicamera-ginkgo",
+    jars: [
+        "proprietary/system/framework/cloud-common-runtime.jar",
+    ],
+}
+
+dex_import {
+    name: "zxing",
+    owner: "miuicamera-ginkgo",
+    jars: [
+        "proprietary/system/framework/zxing.jar",
+    ],
+}
+
+android_app_import {
+    name: "MiuiCamera",
+    owner: "miuicamera-ginkgo",
+    apk: "proprietary/system/priv-app/MiuiCamera/MiuiCamera.apk",
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+}

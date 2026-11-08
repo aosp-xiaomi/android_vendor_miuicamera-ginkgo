@@ -1,0 +1,4 @@
+# Intentionally empty for now.
+# After the first boot, collect denials with:
+#   adb logcat -d | grep "avc:"   (or: adb shell dmesg | grep avc)  -- needs root for dmesg
+# and add the allow rules here.

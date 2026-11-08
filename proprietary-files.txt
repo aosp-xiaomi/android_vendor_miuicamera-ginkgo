@@ -1,0 +1,32 @@
+# All unpinned blobs below are extracted from ginkgo V12.5.12.0.RCOEUXM (MIUI 12.5, Android 11, EEA)
+
+# MiuiCamera 4.3
+system/priv-app/MiuiCamera/MiuiCamera.apk
+
+# Shared libraries required by the app
+system/framework/cloud-common-runtime.jar
+system/framework/zxing.jar
+
+# Native libraries
+system/lib64/libCameraEffectJNI.so
+system/lib64/libMiuiGalleryNSGIF.so
+system/lib64/libarc_layer_sgl.so
+system/lib64/libarcsoft_deflicker.so
+system/lib64/libarcsoft_wideselfie.so
+system/lib64/libc++_shared.so
+system/lib64/libcamera_960_mpbase.so
+system/lib64/libcamera_arcsoft_beautyshot.so
+system/lib64/libcamera_arcsoft_handgesture.so
+system/lib64/libcamera_beauty_mpbase.so
+system/lib64/libcamera_handgesture_mpbase.so
+system/lib64/libcamera_wideselfie_mpbase.so
+system/lib64/libcom.xiaomi.camera.algojni.so
+system/lib64/libcom.xiaomi.camera.mianodejni.so
+system/lib64/libcom.xiaomi.camera.requestutil.so
+system/lib64/libhandengine.arcsoft.so
+system/lib64/libjni_arcsoft_beautyshot.so
+system/lib64/libmmcamera_faceproc.so
+system/lib64/libmmcamera_faceproc2.so
+system/lib64/libmorpho_memory_allocator.so
+system/lib64/libmorpho_panorama_gp3.so
+system/lib64/libmorpho_sensor_fusion.so
